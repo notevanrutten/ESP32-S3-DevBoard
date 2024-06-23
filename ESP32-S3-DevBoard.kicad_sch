@@ -2210,7 +2210,7 @@
 				)
 			)
 		)
-		(symbol "Diode:SMAJ5.0CA"
+		(symbol "Diode:SD05_SOD323"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -2225,7 +2225,7 @@
 					)
 				)
 			)
-			(property "Value" "SMAJ5.0CA"
+			(property "Value" "SD05_SOD323"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2233,7 +2233,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMA"
+			(property "Footprint" "Diode_SMD:D_SOD-323"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -2242,7 +2242,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2251,7 +2251,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2260,7 +2260,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+			(property "ki_keywords" "transient voltage suppressor thyrector transil"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2269,7 +2269,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SMA*"
+			(property "ki_fp_filters" "D?SOD?323*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2278,7 +2278,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SMAJ5.0CA_0_1"
+			(symbol "SD05_SOD323_0_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy -1.27 0)
@@ -2328,7 +2328,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ5.0CA_1_1"
+			(symbol "SD05_SOD323_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3953,18 +3953,6 @@
 		(uuid "00d99f22-eb21-40fc-a14b-563fe4b1c81f")
 	)
 	(junction
-		(at 147.32 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "188e5195-5a87-4dd9-8325-2ea509dbff7d")
-	)
-	(junction
-		(at 162.56 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b7c7c5e-114b-4e7e-9145-5ce4552553b1")
-	)
-	(junction
 		(at 158.75 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4001,22 +3989,16 @@
 		(uuid "2ea331ad-1372-44ce-bc24-f7c02a957cfb")
 	)
 	(junction
-		(at 140.97 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "324b5f0b-6028-405c-8fd2-477b25cf92aa")
-	)
-	(junction
 		(at 125.73 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34eeadb0-f4cc-4413-acd0-48223b9e1d11")
 	)
 	(junction
-		(at 147.32 166.37)
+		(at 151.13 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3b78bf8c-122b-4099-9be1-0f1edc34f0c8")
+		(uuid "36d15006-dc9a-4be2-b37d-e2fdcfd4bfd7")
 	)
 	(junction
 		(at 118.11 166.37)
@@ -4037,16 +4019,16 @@
 		(uuid "520c583c-463b-47d8-aa04-f79b94c9a0ac")
 	)
 	(junction
-		(at 143.51 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57c695e2-c48c-4064-8e4d-d61b5d356178")
-	)
-	(junction
 		(at 43.18 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61645eb1-f1b0-4cf1-ab00-64e1b4d5f9c5")
+	)
+	(junction
+		(at 166.37 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "657babdb-3167-475f-a66c-3e67be003b09")
 	)
 	(junction
 		(at 135.89 40.64)
@@ -4071,6 +4053,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e795b02-9a26-48bb-8c47-04171fc71729")
+	)
+	(junction
+		(at 151.13 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "960e4df0-3e00-4128-b44f-9f27f2d9bda4")
 	)
 	(junction
 		(at 130.81 93.98)
@@ -4121,10 +4109,22 @@
 		(uuid "a7f367ce-389d-4a55-ad88-57708545ea54")
 	)
 	(junction
+		(at 144.78 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "accc109f-7b06-441a-a840-bbfd3e089f4b")
+	)
+	(junction
 		(at 107.95 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1d9f052-7593-436d-9e39-8ed4dde6a8d9")
+	)
+	(junction
+		(at 147.32 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf3edefc-8700-4812-aef2-b0771a4e3216")
 	)
 	(junction
 		(at 123.19 143.51)
@@ -4216,6 +4216,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 166.37) (xy 147.32 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0decdf3f-58bf-4d5a-b1ea-936fc3727940")
+	)
+	(wire
+		(pts
 			(xy 45.72 31.75) (xy 74.93 31.75)
 		)
 		(stroke
@@ -4233,16 +4243,6 @@
 			(type default)
 		)
 		(uuid "0fdf08ba-fb61-4352-afc3-19a9b2efd4ff")
-	)
-	(wire
-		(pts
-			(xy 140.97 166.37) (xy 143.51 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1057a4f2-f001-4cab-8298-f25724a89466")
 	)
 	(wire
 		(pts
@@ -4266,7 +4266,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 133.35) (xy 140.97 166.37)
+			(xy 144.78 133.35) (xy 144.78 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4326,7 +4326,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 124.46) (xy 162.56 125.73)
+			(xy 166.37 124.46) (xy 166.37 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4416,6 +4416,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 125.73) (xy 154.94 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2683a5b1-9adc-41cf-bcd5-faf0f2785502")
+	)
+	(wire
+		(pts
 			(xy 31.75 30.48) (xy 31.75 31.75)
 		)
 		(stroke
@@ -4426,7 +4436,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 143.51) (xy 129.54 156.21)
+			(xy 129.54 143.51) (xy 129.54 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4446,7 +4456,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 125.73) (xy 147.32 125.73)
+			(xy 123.19 125.73) (xy 151.13 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4456,7 +4466,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 125.73) (xy 147.32 156.21)
+			(xy 151.13 125.73) (xy 151.13 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4576,7 +4586,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 48.26) (xy 96.52 48.26)
+			(xy 147.32 166.37) (xy 151.13 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e2961a-5e2b-4cd2-985b-a4c287052c47")
+	)
+	(wire
+		(pts
+			(xy 90.17 48.26) (xy 91.44 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4736,16 +4756,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 166.37) (xy 147.32 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5490d3f1-9892-442b-a070-bfa3f5d8147b")
-	)
-	(wire
-		(pts
 			(xy 41.91 134.62) (xy 44.45 134.62)
 		)
 		(stroke
@@ -4766,7 +4776,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 166.37) (xy 129.54 163.83)
+			(xy 129.54 166.37) (xy 129.54 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4783,16 +4793,6 @@
 			(type default)
 		)
 		(uuid "5e185847-4734-4022-b9be-0f276ab409d8")
-	)
-	(wire
-		(pts
-			(xy 147.32 125.73) (xy 151.13 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6126d040-8155-4d92-9986-9f50fc6c6ece")
 	)
 	(wire
 		(pts
@@ -4976,7 +4976,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 163.83) (xy 125.73 166.37)
+			(xy 125.73 162.56) (xy 125.73 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5056,7 +5056,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 166.37) (xy 140.97 166.37)
+			(xy 129.54 166.37) (xy 144.78 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5073,16 +5073,6 @@
 			(type default)
 		)
 		(uuid "858f1472-c2ce-4cc3-80b8-c68f70d14122")
-	)
-	(wire
-		(pts
-			(xy 147.32 166.37) (xy 162.56 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c39ceb5-306f-448c-9d86-b07869ae01a2")
 	)
 	(wire
 		(pts
@@ -5126,7 +5116,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 50.8) (xy 96.52 50.8)
+			(xy 90.17 50.8) (xy 91.44 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5256,7 +5246,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 125.73) (xy 162.56 142.24)
+			(xy 166.37 125.73) (xy 166.37 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5266,7 +5256,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 125.73) (xy 162.56 125.73)
+			(xy 162.56 125.73) (xy 166.37 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5396,7 +5386,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 124.46) (xy 147.32 125.73)
+			(xy 151.13 124.46) (xy 151.13 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5436,7 +5426,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 163.83) (xy 147.32 166.37)
+			(xy 151.13 162.56) (xy 151.13 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5576,6 +5566,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 166.37) (xy 166.37 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e447af2d-15a1-4925-a722-a981597dfa69")
+	)
+	(wire
+		(pts
 			(xy 160.02 40.64) (xy 160.02 50.8)
 		)
 		(stroke
@@ -5626,7 +5626,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 130.81) (xy 134.62 130.81)
+			(xy 147.32 130.81) (xy 134.62 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5646,7 +5646,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 149.86) (xy 162.56 166.37)
+			(xy 166.37 149.86) (xy 166.37 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5656,7 +5656,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 130.81) (xy 143.51 166.37)
+			(xy 147.32 130.81) (xy 147.32 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5686,7 +5686,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 133.35) (xy 140.97 133.35)
+			(xy 134.62 133.35) (xy 144.78 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5736,7 +5736,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 140.97) (xy 125.73 156.21)
+			(xy 125.73 140.97) (xy 125.73 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5776,7 +5776,7 @@
 	)
 	(rectangle
 		(start 88.9 113.03)
-		(end 170.18 177.8)
+		(end 173.99 177.8)
 		(stroke
 			(width 0)
 			(type default)
@@ -5960,9 +5960,9 @@
 			)
 		)
 	)
-	(global_label "D+"
+	(global_label "GPIO_20"
 		(shape input)
-		(at 96.52 50.8 0)
+		(at 91.44 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5972,7 +5972,7 @@
 		)
 		(uuid "0eb28964-e832-4278-ac3d-69986edc2af4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.3476 50.8 0)
+			(at 102.2871 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,28 +6202,6 @@
 			)
 		)
 	)
-	(global_label "D-"
-		(shape input)
-		(at 64.77 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2eafee8e-7216-48ad-92ef-4075b35b1fd8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.5976 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO_16"
 		(shape input)
 		(at 58.42 83.82 180)
@@ -6422,28 +6400,6 @@
 			)
 		)
 	)
-	(global_label "D-"
-		(shape input)
-		(at 132.08 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "46600b5f-2d8d-4730-8cd2-472e093ce0de")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.9076 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO_9"
 		(shape input)
 		(at 57.15 66.04 180)
@@ -6598,6 +6554,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_20"
+		(shape input)
+		(at 64.77 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "570ce295-4f38-45d5-b326-c2621e1c1817")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.6171 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_35"
 		(shape input)
 		(at 91.44 55.88 0)
@@ -6682,28 +6660,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D+"
-		(shape input)
-		(at 64.77 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7506163e-b825-4b94-a091-12564158b0f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.5976 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6809,6 +6765,28 @@
 		(uuid "8186b8c8-8ceb-4dcf-a015-e156db75917e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 75.6171 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_20"
+		(shape input)
+		(at 132.08 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c2798c9-3a18-4020-8912-8e11e34152dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.9271 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7324,28 +7302,6 @@
 			)
 		)
 	)
-	(global_label "D+"
-		(shape input)
-		(at 132.08 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d2a226b2-4e3b-4424-8257-68cb968a9720")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.9076 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO_41"
 		(shape input)
 		(at 91.44 71.12 0)
@@ -7390,9 +7346,9 @@
 			)
 		)
 	)
-	(global_label "D-"
+	(global_label "GPIO_19"
 		(shape input)
-		(at 96.52 48.26 0)
+		(at 91.44 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7402,7 +7358,7 @@
 		)
 		(uuid "dadde54e-1bfb-4e4b-a72c-b9d66edfa89c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.3476 48.26 0)
+			(at 102.2871 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,6 +7456,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_19"
+		(shape input)
+		(at 64.77 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea45d2f0-dda3-42a9-a880-d40edb9f6979")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.6171 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_4"
 		(shape input)
 		(at 57.15 53.34 180)
@@ -7562,6 +7540,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_19"
+		(shape input)
+		(at 132.08 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7c6729c-e70a-42a0-9cd7-6e101b4934b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.9271 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8131,8 +8131,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SD05_SOD323")
+		(at 125.73 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30a11b6f-730f-410c-a4cc-11ddf1b99cde")
+		(property "Reference" "D3"
+			(at 121.92 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SD05_SOD323"
+			(at 121.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 130.81 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(at 125.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(at 125.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "023d399f-0caf-4181-9fda-990589e87f4d")
+		)
+		(pin "1"
+			(uuid "033c3735-00f8-4486-91b8-2670b349556e")
+		)
+		(instances
+			(project ""
+				(path "/b53eb8a5-cc6c-490f-9a0c-2a07c0a6a3dd"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD05_SOD323")
+		(at 151.13 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c5241f3-4e9a-4059-a7dd-837be2a01120")
+		(property "Reference" "D5"
+			(at 154.94 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SD05_SOD323"
+			(at 154.94 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 156.21 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(at 151.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(at 151.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d2a712d-1a98-4892-9391-5b08f7980b29")
+		)
+		(pin "1"
+			(uuid "75942d10-89e2-4f60-9709-dba2515471c4")
+		)
+		(instances
+			(project "ESP32-S3-DevBoard"
+				(path "/b53eb8a5-cc6c-490f-9a0c-2a07c0a6a3dd"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
-		(at 147.32 124.46 0)
+		(at 151.13 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8140,7 +8274,7 @@
 		(dnp no)
 		(uuid "3c9e52e6-1933-4dc0-a21d-1c5162ad5649")
 		(property "Reference" "#PWR04"
-			(at 147.32 128.27 0)
+			(at 151.13 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8149,7 +8283,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 147.32 119.38 0)
+			(at 151.13 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8157,7 +8291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 124.46 0)
+			(at 151.13 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,7 +8300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 124.46 0)
+			(at 151.13 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8175,7 +8309,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 147.32 124.46 0)
+			(at 151.13 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8328,7 +8462,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 162.56 146.05 0)
+		(at 166.37 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8336,7 +8470,7 @@
 		(dnp no)
 		(uuid "560e9c60-8089-413e-af45-d63dc1207a20")
 		(property "Reference" "C9"
-			(at 156.21 144.78 0)
+			(at 160.02 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +8479,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 154.94 147.32 0)
+			(at 158.75 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8354,7 +8488,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 163.5252 149.86 0)
+			(at 167.3352 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8363,7 +8497,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 146.05 0)
+			(at 166.37 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8372,7 +8506,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 162.56 146.05 0)
+			(at 166.37 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9071,7 +9205,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 162.56 124.46 0)
+		(at 166.37 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9079,7 +9213,7 @@
 		(dnp no)
 		(uuid "7ecae674-5424-43e3-8d6a-507f98e886ee")
 		(property "Reference" "#PWR05"
-			(at 162.56 128.27 0)
+			(at 166.37 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9088,7 +9222,7 @@
 			)
 		)
 		(property "Value" "VCC_5V"
-			(at 162.56 119.38 0)
+			(at 166.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +9230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 124.46 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9105,7 +9239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 124.46 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9114,7 +9248,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 124.46 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9135,41 +9269,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMAJ5.0CA")
-		(at 147.32 160.02 90)
+		(lib_id "Diode:SD05_SOD323")
+		(at 129.54 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "890ea479-e8f0-45d0-8c33-a24b81618616")
-		(property "Reference" "D5"
-			(at 149.86 152.4 90)
+		(uuid "88ccff96-ba44-4fbd-b581-3d6022803e60")
+		(property "Reference" "D4"
+			(at 133.35 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SMAJ5.0CA"
-			(at 149.86 160.02 0)
+		(property "Value" "SD05_SOD323"
+			(at 133.35 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 152.4 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 147.32 160.02 0)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 124.46 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,8 +9302,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-			(at 147.32 160.02 0)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(at 129.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9186,16 +9311,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "b71eacc2-0697-4d38-968a-5a3f6f783e64")
+		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(at 129.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "45b9c58c-8e57-4337-ad8a-309cde032125")
+			(uuid "62c733c0-e606-4dde-8f5d-e467d218c36e")
+		)
+		(pin "1"
+			(uuid "4c819092-fb25-4e30-b695-1f94764f326f")
 		)
 		(instances
-			(project ""
+			(project "ESP32-S3-DevBoard"
 				(path "/b53eb8a5-cc6c-490f-9a0c-2a07c0a6a3dd"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10452,7 +10586,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5819")
-		(at 154.94 125.73 180)
+		(at 158.75 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10461,7 +10595,7 @@
 		(fields_autoplaced yes)
 		(uuid "c65285f5-80d4-4411-ac06-53dae5d62523")
 		(property "Reference" "D2"
-			(at 155.2575 119.38 0)
+			(at 159.0675 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10469,7 +10603,7 @@
 			)
 		)
 		(property "Value" "1N5819"
-			(at 155.2575 121.92 0)
+			(at 159.0675 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10477,7 +10611,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 154.94 121.285 0)
+			(at 158.75 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10486,7 +10620,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 154.94 125.73 0)
+			(at 158.75 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10495,7 +10629,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 154.94 125.73 0)
+			(at 158.75 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10643,73 +10777,6 @@
 			(project "ESP32-S3-DevBoard"
 				(path "/b53eb8a5-cc6c-490f-9a0c-2a07c0a6a3dd"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ5.0CA")
-		(at 129.54 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dcf88f0f-7fe5-4637-9060-22131d168ef2")
-		(property "Reference" "D4"
-			(at 132.08 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMAJ5.0CA"
-			(at 132.08 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 134.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 129.54 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-			(at 129.54 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26a2cf15-05c7-4521-a58b-55fe1853ee41")
-		)
-		(pin "2"
-			(uuid "aae6a151-6e5c-47e4-a11f-4ea4dd091a23")
-		)
-		(instances
-			(project ""
-				(path "/b53eb8a5-cc6c-490f-9a0c-2a07c0a6a3dd"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10915,74 +10982,6 @@
 			(project "ESP32-S3-DevBoard"
 				(path "/b53eb8a5-cc6c-490f-9a0c-2a07c0a6a3dd"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ5.0CA")
-		(at 125.73 160.02 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef82887b-ecd7-41eb-b5cd-cbf897c852d2")
-		(property "Reference" "D3"
-			(at 123.19 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMAJ5.0CA"
-			(at 123.19 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 120.65 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 125.73 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-			(at 125.73 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0b2e0d29-6949-4a9d-91fa-49b39b4635c1")
-		)
-		(pin "1"
-			(uuid "f5c653ee-7ed1-4c90-a8b4-0702d3c97033")
-		)
-		(instances
-			(project ""
-				(path "/b53eb8a5-cc6c-490f-9a0c-2a07c0a6a3dd"
-					(reference "D3")
 					(unit 1)
 				)
 			)
