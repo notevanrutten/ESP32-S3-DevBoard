@@ -3702,7 +3702,7 @@
 		(uuid "717c68d0-c82e-4359-8f0b-52fe93dd413a")
 		(at 182.626 95.377)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0f579293-5281-43fc-ac10-433e47a54148")
@@ -3714,7 +3714,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1f3851b0-43be-4995-a379-436b1cc5540c")
@@ -3726,7 +3726,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:ER"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "72901bf3-b578-4631-ae6f-6a0b3afee1be")
@@ -3738,7 +3738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "71e36c97-5edb-46fa-ac82-7cdb88aa6ac5")
@@ -3750,7 +3750,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a9f9e037-d7d6-4ddd-9be0-df25e66fd1bd")
