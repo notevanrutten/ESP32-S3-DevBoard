@@ -59,10 +59,10 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|187453300|103150700|82045915-19ac-482e-acf0-08c234fa41ca|2f380a73-2dee-4bd7-bf2f-8b4309855b6c",
-        "clearance|187453300|103150700|82045915-19ac-482e-acf0-08c234fa41ca|98eceb94-a41a-4f1a-9bf3-830c7b7030cb",
-        "clearance|187950000|103150700|2f380a73-2dee-4bd7-bf2f-8b4309855b6c|dd72817a-cec3-4d96-8d6b-4cc01e488a6b",
-        "clearance|187950000|103150700|98eceb94-a41a-4f1a-9bf3-830c7b7030cb|dd72817a-cec3-4d96-8d6b-4cc01e488a6b",
+        "clearance|187453300|103150700|dd72817a-cec3-4d96-8d6b-4cc01e488a6b|2f380a73-2dee-4bd7-bf2f-8b4309855b6c",
+        "clearance|187453300|103150700|dd72817a-cec3-4d96-8d6b-4cc01e488a6b|98eceb94-a41a-4f1a-9bf3-830c7b7030cb",
+        "clearance|187950000|103150700|2f380a73-2dee-4bd7-bf2f-8b4309855b6c|82045915-19ac-482e-acf0-08c234fa41ca",
+        "clearance|187950000|103150700|98eceb94-a41a-4f1a-9bf3-830c7b7030cb|82045915-19ac-482e-acf0-08c234fa41ca",
         "lib_footprint_mismatch|187452000|94488000|ce336cbc-616e-4f7b-a1a4-bd49a156394c|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|189250000|99250000|f9ff6dfa-aaaa-4b3a-a6b9-fc04fb292d8e|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|190500000|106136000|b17ca278-f0ff-4054-a0fa-59fad862f28a|00000000-0000-0000-0000-000000000000",
@@ -494,7 +494,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers/",
+      "plot": "Fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
