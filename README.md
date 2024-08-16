@@ -2,7 +2,7 @@
 
 A custom-built development board using the ESP32-S3 chip
 
-<img src="Media/ESP32-S3-DevBoard.png" alt="ESP32-S3 DevBoard" width="500"/>
+<img src="Media/ESP32-S3-DevBoard.png" alt="ESP32-S3 DevBoard" width="750"/>
 
 ## PlatformIO Setup
 
