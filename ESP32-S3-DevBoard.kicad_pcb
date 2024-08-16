@@ -702,7 +702,7 @@
 			(pintype "passive")
 			(uuid "83dbbe2b-7ae9-423c-bb86-d8f312287eba")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.wrl"
+		(model "${KIPRJMOD}/Custom/PTS810.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -710,7 +710,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -1025,7 +1025,7 @@
 			(pintype "passive")
 			(uuid "a5df508d-96fe-4e4e-81d5-43508c330b73")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.wrl"
+		(model "${KIPRJMOD}/Custom/PTS810.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1033,7 +1033,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
